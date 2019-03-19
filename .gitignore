@@ -1,0 +1,5 @@
+# 忽略的文件，即不需上传到 git 仓库文件
+node_modules
+.idea
+.vscode
+.git

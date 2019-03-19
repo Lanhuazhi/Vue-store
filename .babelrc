@@ -1,0 +1,14 @@
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-proposal-class-properties",
+    // 跟文档不以样，需要去掉 component 后面的中括号才能正常显示
+    ["component",
+      {
+        "libraryName": "mint-ui",
+        "style": true
+      }
+    ]
+  ]
+}
